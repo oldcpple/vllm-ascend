@@ -26,6 +26,7 @@ import torch
 import torch.distributed
 import zmq
 import time
+import dataclasses
 from torch import nn
 from vllm import envs
 from vllm.config import VllmConfig, set_current_vllm_config
